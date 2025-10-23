@@ -1,0 +1,93 @@
+body{
+    font-size: 16px;
+/*  transform: scale(1.2);
+    transform-origin: 0 0;
+    width: calc(100% / 1.2);
+    height: calc(100vh / 1.2); */
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family:'RobotoSerif-Regular';
+    src: url(fonts/RobotoSerif-Regular.woff2) format(woff2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu {
+    color: #0064F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    user-select: none;
+}
+
+.button{
+    padding: 12px;
+}
+
+.button[disabled]{
+    color: #141414;
+    pointer-events: none;
+}
+
+.text{
+    height: 19px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+}
+
+.text.text-about { width: 60px; }
+.text.text-references { width: 94px; }
+.text.text-sites { width: 88px; }
+.text.text-tools { width: 112px; }
+.text.text-learn { width: 38px; }
+.text.text-channels { width: 63px; }
+
+.button:not([disabled]):hover {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.button:not([disabled]):active {
+    font-size: 14px;
+}
+
+.button:focus:not([disabled]) {
+    outline: none;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+}
+
+.gif-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}

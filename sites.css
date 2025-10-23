@@ -1,0 +1,179 @@
+h1{
+    font-family:'RobotoSerif-Regular';
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+}
+
+.first-block{
+    padding: 64px 0px 72px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.filter-buttons-block {
+    display: flex;
+    width: 536px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.filter-button {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    display: inline-flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    background: #0064F0;
+    border-radius: 24px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+
+.filter-button:not(.active) {
+    background: #E5EFFD;
+    color: #0064F0;
+}
+
+.filter-button:not(.active):hover {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+}
+
+.filter-button:active{
+    background: #0064F0;
+    font-size: 14px;
+    color: white;
+}
+
+.filter-button.active:hover {
+    background: #0064F0;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+}
+
+.label {
+    height: 19px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+    text-align: center;
+}
+
+.label.label-designers { width: 93px; }
+.label.label-studios { width: 60px; }
+.label.label-clothes { width: 67px; }
+.label.label-shops { width: 164px; }
+.label.label-apps { width: 104px; }
+.label.label-courses { width: 53px; }
+.label.label-banks { width: 49px; }
+.label.label-others { width: 91px; }
+
+.card{
+    display: flex;
+    width: 285px;
+    padding: 20px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.card:hover { background: #0064F0; }
+.card:hover .button-link { color: white; }
+.card:hover .undertitle-text { color: #3CBCFF; }
+.card:hover h2 { color: white; }
+
+.buttons-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.button-link {
+    color: #0064F0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    width: 245px;
+}
+
+.button-link:hover {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    color: inherit;
+}
+
+.button-link:focus {
+    outline: none;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    color: #0064F0;
+}
+
+.button-link:active{
+    color: inherit;
+}
+
+.undertitle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.undertitle-text{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    align-self: stretch;
+    font-size: 16px;
+}
+
+.card-container{
+    display: flex;
+    width: 285px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cards{
+    padding-bottom: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 20px;
+    width: 1200px
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-сайты — Сайтец
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="sites.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="index.html" class="button">
+                <div class="text text-about">Сайтец</div>
+            </a>
+            <a href="tools.html" class="button">
+                <div class="text text-tools">Инструменты</div>
+            </a>
+            <a href="sites.html" class="button" disabled tabindex="-1">
+                <div class="text text-sites">Веб-сайты</div>
+            </a>
+            <a href="channels.html" class="button">
+                <div class="text text-channels">Каналы</div>
+            </a>
+            <a href="references.html" class="button">
+                <div class="text text-references">Референсы</div>
+            </a>
+            <a href="learn.html" class="button">
+                <div class="text text-learn">База</div>
+            </a>
+        </nav>
+    </header>
+    <section class="first-block">
+        <h1>Сборник сайтов</h1>
+            <!-- <div class="filter-buttons-block">
+                <label class="filter-button">
+                    <div class="label label-designers">Дизайнеры</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-studios">Студии</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-clothes">Одежда</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-shops">Интернет-магазины</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-apps">Приложения</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-courses">Курсы</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-banks">Банки</div>
+                </label>
+                <label class="filter-button">
+                    <div class="label label-others">Остальные</div>
+                </label>
+            </div> -->
+    </section>
+    <!-- <script>
+        document.querySelectorAll('.filter-button').forEach(button => {
+            button.addEventListener('click', function() {
+                this.classList.toggle('active')
+            })
+        })
+    </script> -->
+    <section class="cards">
+        <div class="card-container">
+            <div class="card">
+                <h2>Дизайнеры</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://nikitanova.com/" class="button-link" target="_blank" rel="noopener noreferrer">Никита Нова</a>
+                        <a href="https://arutyunov.info/" class="button-link" target="_blank">Женя Арутюнов</a>
+                        <a href="https://vla.so/" class="button-link" target="_blank">Женя Власов</a>
+                        <a href="https://vanyaann.xyz/" class="button-link" target="_blank">Ваня Анненков</a>
+                        <a href="https://ko0oz.com/" class="button-link" target="_blank">Андрей Кузьмин</a>
+                        <a href="https://alectear.com/" class="button-link" target="_blank">Alec Tear</a>
+                        <a href="https://khagwal.com/" class="button-link" target="_blank">Nitish Khagwal</a>
+                        <a href="https://dribbble.com/Giulio_Cuscito" class="button-link" target="_blank">Giulio Cuscito</a>
+                        <a href="https://bolshakovdesign.com/" class="button-link" target="_blank">Vladimir Bolshakov</a>
+                        <a href="https://www.khmelev.me/" class="button-link" target="_blank">Roma Khmelev</a>
+                        <a href="https://chester.how" class="button-link" target="_blank">Chester How</a>
+                        <a href="https://adam.ci/ru/" class="button-link" target="_blank">Адам Арутюнов</a>
+                        <a href="https://yolips.ru/" class="button-link" target="_blank">Yolips</a>
+                        <a href="https://krisandrewsmall.com/" class="button-link" target="_blank">Kris Andrew Small</a>
+                        <a href="https://daniil-petrov.ru/" class="button-link" target="_blank">Даниил Петров</a>
+                        <a href="https://m-mukhanov.ru/" class="button-link" target="_blank">Максим Муханов</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Студии</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://intuition.team/ru" class="button-link" target="_blank">Интуиция</a>
+                        <a href="https://shuka.design/" class="button-link" target="_blank">Shuka</a>
+                        <a href="https://beta.ru/" class="button-link" target="_blank">бета</a>
+                        <a href="https://ony.ru/" class="button-link" target="_blank">ONY</a>
+                        <a href="https://loo.ch/" class="button-link" target="_blank">Луч</a>
+                        <a href="https://www.5x10.ru/" class="button-link" target="_blank">5x10</a>
+                        <a href="https://www.design.studio/" class="button-link" target="_blank">DesignStudio</a>
+                        <a href="https://www.burocratik.com/" class="button-link" target="_blank">We Are Buro</a>
+                        <a href="https://www.humbleteam.com/" class="button-link" target="_blank">Humbleteam</a>
+                        <a href="https://www.artlebedev.ru/" class="button-link" target="_blank">Студия Артемия Лебедева</a>
+                        <a href="https://www.artlebedev.ru/" class="button-link" target="_blank">GLADKOV COMPANY</a>
+                        <a href="https://newpeace.jp/" class="button-link" target="_blank">NEWPEACE</a>
+                        <a href="https://saint-digital.agency/" class="button-link" target="_blank">Saint Digital</a>
+                        <a href="https://inette.co/" class="button-link" target="_blank">Inette</a>
+                        <a href="https://non-objective.works/" class="button-link" target="_blank">Non-Objective</a>
+                        <a href="https://gladlax.ru/" class="button-link" target="_blank">Гладлакс</a>
+                        <a href="https://tumanstudio.com/" class="button-link" target="_blank">Tuman Studio</a>
+                        <a href="https://wearefields.ru/" class="button-link" target="_blank">Филдс</a>
+                        <a href="https://redcollar.ru/" class="button-link" target="_blank">Red Collar</a>
+                        <a href="https://madeinhaus.com/" class="button-link" target="_blank">HAUS</a>
+                        <a href="https://only.digital/" class="button-link" target="_blank">Only</a>
+                        <a href="https://www.shiftwalk.studio/" class="button-link" target="_blank">ShiftWalk</a>
+                        <a href="https://lisovskiy.work/" class="button-link" target="_blank">The studio of Sergey Lisovskiy</a>
+                        <a href="https://vantage.ava-case.com/" class="button-link" target="_blank">Vantage Inc</a>
+                        <a href="https://pizzapizza.io/" class="button-link" target="_blank">Pizza Pizza</a>
+                        <a href="https://sagirov.com/" class="button-link" target="_blank">Sagirov</a>
+                        <a href="https://eshgruppa.com/" class="button-link" target="_blank">ESH gruppa</a>
+                        <a href="https://repinabranding.ru/" class="button-link" target="_blank">Repina</a>
+                        <a href="https://voskhod.agency/" class="button-link" target="_blank">Восход</a>
+                        <a href="https://dalee.ru/" class="button-link" target="_blank">Далее</a>
+                        <a href="https://ed.studio/studio" class="button-link" target="_blank">ED. Studio</a>
+                        <a href="https://nashekrashe.com/" class="button-link" target="_blank">NasheKrashe</a>
+                        <a href="https://zavod.4rome.ru/" class="button-link" target="_blank">Четвертый Рим</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Одежда</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://nikifilini.com/" class="button-link" target="_blank">NIKIFILINI</a>
+                        <a href="https://verner.co/" class="button-link" target="_blank">VERNER</a>
+                        <a href="https://xsai.store/" class="button-link" target="_blank">XSAI</a>
+                        <a href="https://znwr.ru/" class="button-link" target="_blank">ZNWR</a>
+                        <a href="https://zagonbrand.com/" class="button-link" target="_blank">ZAGON</a>
+                        <a href="https://studio-29.ru/" class="button-link" target="_blank">Studio 29</a>
+                        <a href="https://fablestore.ru/" class="button-link" target="_blank">FABLE</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Интернет-магазины</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://lavka.yandex.ru/" class="button-link" target="_blank">Яндекс Лавка</a>
+                        <a href="https://market.yandex.ru/" class="button-link" target="_blank">Яндекс Маркет</a>
+                        <a href="https://www.ozon.ru/" class="button-link" target="_blank">Озон</a>
+                        <a href="https://shop.tastycoffee.ru/" class="button-link" target="_blank">Tasty Coffee</a>
+                        <a href="https://lagomhome.ru/" class="button-link" target="_blank">lagomhome</a>
+                        <a href="https://eda.yandex.ru/" class="button-link" target="_blank">Яндекс Еда</a>
+                        <a href="https://www.wildberries.ru/" class="button-link" target="_blank">Wildberries</a>
+                        <a href="https://megamarket.ru/" class="button-link" target="_blank">Мегамаркет</a>
+                        <a href="https://www.vseinstrumenti.ru/" class="button-link" target="_blank">ВсеИнструменты</a>
+                        <a href="https://www.dns-shop.ru/" class="button-link" target="_blank">DNS</a>
+                        <a href="https://5ka.ru/" class="button-link" target="_blank">Пятерочка</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Приложения</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://bookov.app/" class="button-link" target="_blank">Bookov</a>
+                        <a href="https://obsidian.md/" class="button-link" target="_blank">Obsdian</a>
+                        <a href="https://www.loom.com/" class="button-link" target="_blank">Loom</a>
+                        <a href="https://cursor.com/" class="button-link" target="_blank">Cursor</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Курсы</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://practicum.yandex.ru/" class="button-link" target="_blank">Яндекс Практикум</a>
+                        <a href="https://intuition.team/ru/how-to-design-with-code" class="button-link" target="_blank">Как дизайнить кодом вместо Фигмы</a>
+                        <a href="https://setka.design/web/" class="button-link" target="_blank">Фантастические сайты на Джаваскрипте</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Игры и игровые студии</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://eastwardgame.com/" class="button-link" target="_blank">Eastward</a>
+                        <a href="https://www.far-game.com/#" class="button-link" target="_blank">Far: Lone Sails</a>
+                        <a href="https://www.farchangingtides.com/" class="button-link" target="_blank">Far: Changing Tides</a>
+                        <a href="https://herdling.game/" class="button-link" target="_blank">Herdling</a>
+                        <a href="https://reanimal.thqnordic.com/" class="button-link" target="_blank">REANIMAL</a>
+                        <a href="https://subnautica.com/en" class="button-link" target="_blank">Subnautica 2</a>
+                        <a href="https://www.valheimgame.com/ru/" class="button-link" target="_blank">Valheim</a>
+                        <a href="https://www.okomotive.ch/" class="button-link" target="_blank">Okomotive</a>
+                        <a href="https://tarsier.se/" class="button-link" target="_blank">Tarsier Studios</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Банки</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://www.jeton.com/" class="button-link" target="_blank">Jeton</a>
+                        <a href="https://www.revolut.com/" class="button-link" target="_blank">Revolut</a>
+                        <a href="https://finance.ozon.ru/" class="button-link" target="_blank">Ozon Банк</a>
+                        <a href="https://www.tbank.ru/" class="button-link" target="_blank">Т-Банк</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Другие сайты</h2>
+                <div class="undertitle-container">
+                    <nav class="buttons-links">
+                        <a href="https://www.innopolis.com/ru" class="button-link" target="_blank">Иннополис</a>
+                        <a href="https://scale.yandex.cloud/" class="button-link" target="_blank">Yandex Scale 2024</a>
+                        <a href="https://varvaryna-iryna.ru/" class="button-link" target="_blank">Психолог Ирина Варварина</a>
+                        <a href="https://patchworkarchitecture.co.nz/" class="button-link" target="_blank">Patchwork Architecture</a>
+                        <a href="https://www.threefoldarchitects.com/" class="button-link" target="_blank">Threefold Architects</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.querySelectorAll('.button-link').forEach(link => {
+                // Обработка всех видов кликов
+                link.addEventListener('auxclick', function(e) {
+                    if (e.button === 1) { // Колесико мыши
+                        this.blur();
+                        setTimeout(() => this.style.pointerEvents = 'none', 0);
+                        setTimeout(() => this.style.pointerEvents = 'auto', 100);
+                    }
+                });
+    
+                link.addEventListener('contextmenu', function() {
+                    // Подготовка к сбросу hover после открытия через контекстное меню
+                    const resetHover = () => {
+                        this.blur();
+                        setTimeout(() => this.style.pointerEvents = 'none', 0);
+                        setTimeout(() => this.style.pointerEvents = 'auto', 100);
+                    };
+                    
+                    // Сброс hover при открытии через контекстное меню
+                    window.addEventListener('blur', resetHover, { once: true });
+                });
+    
+                // Обычный клик
+                link.addEventListener('click', function() {
+                    setTimeout(() => {
+                        this.blur();
+                        this.style.pointerEvents = 'none';
+                        setTimeout(() => this.style.pointerEvents = 'auto', 100);
+                    }, 0);
+                });
+            });
+        </script>
+    </section>
+</body>
+</html>
