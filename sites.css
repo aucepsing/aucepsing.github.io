@@ -6,7 +6,7 @@ h1{
 }
 
 .first-block{
-    padding: 64px 0px 72px 0px;
+    padding: 64px 0px 64px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
